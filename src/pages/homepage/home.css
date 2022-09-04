@@ -1,0 +1,9 @@
+h1 {
+  color: #e4f4f3;
+}
+
+.home {
+  background-color: #5885af;
+  /* background-image: linear-gradient(to right, #41729f, #c3e0e5); */
+  height: 100vh;
+}

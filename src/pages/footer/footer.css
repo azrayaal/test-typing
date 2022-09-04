@@ -1,0 +1,27 @@
+/*FOOTER*/
+
+footer {
+  /* background: #16222a; */
+  background-color: #274472;
+  color: white;
+  margin-top: 100px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 8px;
+  border-top: 1px solid #ffffff;
+}
+
+.footer-middle {
+  padding-top: 1em;
+  color: white;
+}
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
