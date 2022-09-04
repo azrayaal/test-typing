@@ -24,7 +24,7 @@ export default function KolomType() {
         </InputGroup>
         <Row>
           <Col md={6} className="mt-3">
-            <div className="text-success fw-bold fs-5">129wpm</div>
+            <div className="text-success fw-bold fs-5">100WPM</div>
           </Col>
           <Col md={6}>
             <Button className="mt-3 float-end d-flex align-items-center" variant="danger">
