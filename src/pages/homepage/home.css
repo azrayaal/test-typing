@@ -8,7 +8,7 @@ h1 {
   /* height: 100%; */
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   #gambar {
     display: none !important;
     visibility: hidden !important;
