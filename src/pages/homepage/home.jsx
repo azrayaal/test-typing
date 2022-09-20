@@ -20,6 +20,7 @@ export default function Home() {
             </Col>
             <Col sm={12} md={4}>
               <lottie-player
+                id="gambar"
                 src="https://assets5.lottiefiles.com/packages/lf20_ywajvrnp.json"
                 mode="bounce"
                 background="transparent"

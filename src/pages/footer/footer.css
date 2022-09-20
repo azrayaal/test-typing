@@ -1,14 +1,14 @@
 /*FOOTER*/
 
 footer {
-  /* background: #16222a; */
   background-color: #274472;
   color: white;
-  margin-top: 100px;
-  position: absolute;
+  padding: 2px;
+  margin-top: 51px;
+  /* position: absolute;
   right: 0;
   bottom: 0;
-  left: 0;
+  left: 0; */
 }
 
 .copy {

@@ -6,7 +6,7 @@ import Puter from './pages/footer/footer';
 
 function App() {
   return (
-    <div style={{ backgroundColor: ' ##00b6bc' }}>
+    <div>
       {/* <Nava /> */}
       <Home />
       <Puter />

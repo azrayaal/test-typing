@@ -3,7 +3,14 @@ h1 {
 }
 
 .home {
-  background-color: #5885af;
+  background-color: #;
   /* background-image: linear-gradient(to right, #41729f, #c3e0e5); */
-  height: 100vh;
+  /* height: 100%; */
+}
+
+@media only screen and (max-width: 480px) {
+  #gambar {
+    display: none !important;
+    visibility: hidden !important;
+  }
 }
