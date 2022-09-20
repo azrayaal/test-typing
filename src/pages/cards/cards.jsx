@@ -8,7 +8,7 @@ import './cards.css';
 import React, { useRef, useState, useEffect } from 'react';
 
 const getCloud = () =>
-  `loreLorem ipsum dolor sit amet consectetur adipisicing elit. Magnam temporibus, sequi fugiat dolore tempora cumque ducimus nihil excepturi nisi quasi atque libero. Hic pariatur incidunt laudantium sunt ipsam, alias harum tempora dignissimos reprehenderit, doloribus optio magnam repellat, officiis beatae facere?m40`.split(
+  `Sejak tahun 2012 hingga saat ini, Cerpenmu telah menerbitkan puluhan ribu cerpen kiriman karya anak bangsa, sekaligus menjadi media situs baca cerpen online bermoderasi terbesar yang pernah ada, banyak cerpen menarik yang terbagi ke dalam lebih dari 50 kategori/genre yang bisa kamu baca dan nikmati di sini.`.split(
     ' '
   );
 
@@ -47,10 +47,10 @@ function Timer(props) {
   const minutes = timeElapsed / 60;
 
   return (
-    <div>
-      <p>Time: {timeElapsed}</p>
-      <p>speed: {(correctWords / minutes || 0).toFixed(2)} WPM</p>
-    </div>
+    <Row>
+      <Col className="text-danger fw-bold fs-5">Time: {timeElapsed}</Col>
+      <Col className="text-success fw-bold fs-5">{(correctWords / minutes || 0).toFixed(2)} WPM</Col>
+    </Row>
   );
 }
 
@@ -117,13 +117,12 @@ export default function KolomType() {
         </InputGroup>
         <Row>
           <Col md={6} className="mt-3">
-            <div className="text-success fw-bold fs-5">100WPM</div>
+            <Timer startCounting={startCounting} correctWords={correctWordArray.filter(Boolean).length} />
           </Col>
           <Col md={6}>
             <Button className="mt-3 float-end d-flex align-items-center" variant="danger">
               RESET
             </Button>
-            <Timer startCounting={startCounting} correctWords={correctWordArray.filter(Boolean).length} />
           </Col>
         </Row>
       </Card>
