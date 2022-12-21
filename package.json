@@ -1,5 +1,6 @@
 {
   "name": "test-typing",
+  "homepage": "https://test-typing.azrayaal.space/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
